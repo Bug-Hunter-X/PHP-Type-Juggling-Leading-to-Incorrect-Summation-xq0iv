@@ -1,0 +1,1 @@
+This repository demonstrates a common but subtle error in PHP: type juggling. The `calculateSum` function unintentionally adds a string ('4') to a numerical sum, causing an incorrect result due to PHP's automatic type conversion. The solution showcases how to prevent this by explicitly type checking.
